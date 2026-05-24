@@ -1,0 +1,1 @@
+import React from 'react'; export default function Progress() { return <div style={{padding:'40px',color:'#fff'}}><h1>?? Progress</h1><p style={{color:'#888',marginTop:'8px'}}>Progress tracking coming soon...</p></div>; }

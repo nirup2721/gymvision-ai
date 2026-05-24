@@ -1,0 +1,1 @@
+import React from 'react'; export default function WorkoutPlan() { return <div style={{padding:'40px',color:'#fff'}}><h1>??? Workout Plan</h1><p style={{color:'#888',marginTop:'8px'}}>AI workout plans coming soon...</p></div>; }

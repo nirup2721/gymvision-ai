@@ -1,16 +1,15 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+import Sidebar from './Sidebar';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
-import Workouts from './pages/Workouts';
-import Nutrition from './pages/Nutrition';
-import Equipment from './pages/Equipment';
+import Workouts from './pages/WorkoutPlan';
+import Nutrition from './pages/NutritionPlan';
+import Equipment from './pages/EquipmentScanner';
 import Progress from './pages/Progress';
 import Profile from './pages/Profile';
-import Payments from './pages/Payments';
-
+import Payments from './Payments';
 export const AuthContext = createContext(null);
 
 export function useAuth() {

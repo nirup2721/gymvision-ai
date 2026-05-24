@@ -1,0 +1,1 @@
+import React from 'react'; export default function Profile() { return <div style={{padding:'40px',color:'#fff'}}><h1>?? Profile</h1><p style={{color:'#888',marginTop:'8px'}}>Profile settings coming soon...</p></div>; }

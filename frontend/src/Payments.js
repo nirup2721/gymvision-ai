@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useAuth, API } from '../App';
+import { useAuth, API } from './App';
 
 const PLANS = [
   { id: 'basic', name: 'Basic', price: 9.99, features: ['Workout Tracking', 'Nutrition Logging', 'Progress Charts', 'Equipment Management'], color: 'var(--blue)' },

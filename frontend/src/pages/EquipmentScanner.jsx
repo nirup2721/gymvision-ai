@@ -1,0 +1,1 @@
+import React from 'react'; export default function EquipmentScanner() { return <div style={{padding:'40px',color:'#fff'}}><h1>?? Equipment Scanner</h1><p style={{color:'#888',marginTop:'8px'}}>AI equipment scanner coming soon...</p></div>; }

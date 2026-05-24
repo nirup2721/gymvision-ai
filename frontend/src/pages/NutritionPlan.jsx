@@ -1,0 +1,1 @@
+import React from 'react'; export default function NutritionPlan() { return <div style={{padding:'40px',color:'#fff'}}><h1>?? Nutrition Plan</h1><p style={{color:'#888',marginTop:'8px'}}>AI nutrition plans coming soon...</p></div>; }
